@@ -1,0 +1,11 @@
+/* Default Class */
+.d__center{
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Font Weights Defaults */
+
+.d__700{
+    font-weight: 700;
+}
