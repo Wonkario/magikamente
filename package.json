@@ -1,21 +1,30 @@
 {
   "name": "magikally",
   "version": "1.0.0",
-  "description": "My stupendous Nuxt.js project",
-  "author": "Wonkario",
-  "private": true,
+  "description": "> My stupendous Nuxt.js project",
+  "main": "nuxt.config.js",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wonkario/magikamente.git"
+  },
+  "author": "Wonkario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wonkario/magikamente/issues"
+  },
+  "homepage": "https://github.com/Wonkario/magikamente#readme",
   "dependencies": {
-    "@nuxtjs/bulma": "^1.2.1",
-    "@nuxtjs/pwa": "^2.6.0",
-    "nuxt": "^2.0.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.23",
+    "nuxt": "^2.8.1"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
-  }
+  "devDependencies": {}
 }
